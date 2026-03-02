@@ -1,0 +1,6 @@
+print(100)
+print(0.633)
+print(True)
+print(False)
+print("Hello Python.")
+print(None)
