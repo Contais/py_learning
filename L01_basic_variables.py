@@ -1,6 +1,7 @@
 print(100)
 print(0.633)
 print(True)
+# print(true) 错误的写法 bool类型: True或False首字母大写
 print(False)
 print("Hello Python.")
 print(None)
