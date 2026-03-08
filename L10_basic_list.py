@@ -1,11 +1,12 @@
 list = [33, 22, 44, 55, 66, 77, 88, 55, 22 ,"100", True]
 print(type(list))
+print(len(list))
 
 # get
 # 正向索引：从0开始
-print(list[10])
+print(list[0])
 # 反向索引：从-1开始
-print(list[-1])
+print(list[-11])
 
 # update
 list[10] = 111
