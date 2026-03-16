@@ -1,0 +1,108 @@
+# ===================== Python 核心忽略 =====================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+# 虚拟环境（多命名适配）
+.venv/
+venv/
+ENV/
+env/
+env.bak/
+venv.bak/
+# 打包/构建产物
+build/
+dist/
+sdist/
+*.egg-info/
+*.egg
+.installed.cfg
+pip-wheel-metadata/
+share/python-wheels/
+develop-eggs/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+var/
+# 编译/临时文件
+*.rej
+*.orig
+*.swp
+*.swo
+*~
+\#*#
+*.tmp
+*.temp
+
+# ===================== PyCharm 开发环境 =====================
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+.gradle/
+tmp/
+temp/
+# 测试/覆盖率
+.coverage
+.coverage.*
+pytest_cache/
+.coverage.*
+htmlcov/
+.pytest_cache/
+test-results/
+
+# ===================== 新增：高频业务忽略 =====================
+# 日志文件
+*.log
+logs/
+log/
+# 数据文件（数据分析/爬虫场景）
+*.csv
+*.xlsx
+*.xls
+*.json
+*.db
+*.sqlite3
+data/
+datasets/
+dataset/
+# 缓存/临时文件
+.cache/
+*.pkl
+*.pickle
+# 秘钥/配置文件（不上传敏感信息）
+*.env
+.env/
+config.ini
+config.yaml
+config.yml
+secrets/
+# Jupyter Notebook（按需保留，仅忽略检查点）
+.ipynb_checkpoints/
+# 压缩包
+*.zip
+*.rar
+*.7z
+*.tar
+*.gz
+
+# ===================== 操作系统通用 =====================
+# Mac
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+# Windows
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+# Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
