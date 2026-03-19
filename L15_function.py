@@ -138,7 +138,7 @@ print(calculator(10, 20, calculator_div))
 
 def statistics(*args, **kwargs):
     """
-
+    通过数值列表计算最大值、最小值、平均值并返回
     :param args: 不定长位置参数；需要汇总统计的数值
     :param kwargs: 不定长关键字参数；（setRound = 保留的小数位，isPrint：是否打印）
     :return: （最大值，最小值，平均值)
@@ -148,7 +148,7 @@ def statistics(*args, **kwargs):
     avg_num = sum(args) / len(args)
     if kwargs.get("setRound") is not None:
         avg_num = round(avg_num, kwargs["setRound"])
-    if kwargs["isPrint"]:
+    if kwargs.get("isPrint") is not None and kwargs.get("isPrint"):
         print(f"最大值 = {max_num}, 最小值 = {min_num}, 平均值 = {avg_num}")
     return max_num, min_num, avg_num
 
