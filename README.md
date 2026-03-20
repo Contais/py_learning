@@ -6,44 +6,45 @@
 ---
 
 ## 目录结构（当前 + 后续规划）
-py_lesson/
-├── 01_basics/                    # 基础语法模块（已完成）
-│   ├── 01_variables.py           # 变量定义与命名规范
-│   ├── 02_datatypes.py           # 基本数据类型（int/float/str/bool等）
-│   ├── 03_string_operations.py   # 字符串基础操作
-│   ├── 04_input_output.py         # 输入输出（input/print）与格式化
-│   └── 05_operators.py           # 运算符（算术/比较/逻辑/赋值）
-├── 02_control_flow/              # 流程控制模块（已完成）
-│   ├── 01_condition_if.py        # if/elif/else 条件分支
-│   ├── 02_condition_match.py     # match-case 模式匹配
-│   ├── 03_loop_while.py          # while 循环与控制
-│   └── 04_loop_for.py            # for 循环与可迭代对象遍历
-├── 03_containers/                # 容器数据类型（已完成）
-│   ├── 01_list.py                # 列表（有序可变序列）
-│   ├── 02_string.py              # 字符串（不可变序列）
-│   ├── 03_tuple.py               # 元组（不可变序列）
-│   ├── 04_set.py                 # 集合（无序无重复元素）
-│   └── 05_dictionary.py          # 字典（键值对映射）
-├── 04_functions/                 # 函数与模块（已完成）
-│   ├── 01_functions.py           # 函数定义/参数/返回值
-│   ├── 02_type_annotations.py     # 类型注解（类型提示）
-│   └── 03_modules.py              # 模块导入与自定义模块
-├── 05_oop/                       # 面向对象编程（规划中）
-│   ├── 01_class_object.py         # 类与对象基础
-│   ├── 02_inheritance.py          # 继承与多态
-│   ├── 03_encapsulation.py        # 封装与访问控制
-│   └── 04_special_methods.py      # 魔术方法（__init__/__str__等）
-├── 06_advanced_features/         # 进阶特性（规划中）
-│   ├── 01_generator_iterator.py   # 生成器与迭代器
-│   ├── 02_decorator.py            # 装饰器
-│   ├── 03_context_manager.py      # 上下文管理器（with语句）
-│   └── 04_exception_handle.py     # 异常处理
-├── 07_practice_projects/         # 实战项目（规划中）
-│   ├── todo_list.py               # 待办事项清单
-│   ├── calculator.py              # 简易计算器
-│   └── file_manager.py            # 文件批量处理工具
-└── README.md                     # 项目说明文档
-
+```
+py_lesson  -- Python 学习笔记仓库
+├── 01_basics -- 基础语法模块（已完成）
+│   ├── 01_variables.py -- 变量定义与命名规范
+│   ├── 02_datatypes.py -- 基本数据类型（int/float/str/bool等）
+│   ├── 03_string_operations.py -- 字符串基础操作
+│   ├── 04_input_output.py -- 输入输出（input/print）与格式化
+│   └── 05_operators.py -- 运算符（算术/比较/逻辑/赋值）
+├── 02_control_flow -- 流程控制模块（已完成）
+│   ├── 01_condition_if.py -- if/elif/else 条件分支
+│   ├── 02_condition_match.py -- match-case 模式匹配
+│   ├── 03_loop_while.py -- while 循环与控制
+│   └── 04_loop_for.py -- for 循环与可迭代对象遍历
+├── 03_containers -- 容器数据类型（已完成）
+│   ├── 01_list.py -- 列表（有序可变序列）
+│   ├── 02_string.py -- 字符串（不可变序列）
+│   ├── 03_tuple.py -- 元组（不可变序列）
+│   ├── 04_set.py -- 集合（无序无重复元素）
+│   └── 05_dictionary.py -- 字典（键值对映射）
+├── 04_functions -- 函数与模块（已完成）
+│   ├── 01_functions.py -- 函数定义/参数/返回值
+│   ├── 02_type_annotations.py -- 类型注解（类型提示）
+│   └── 03_modules.py -- 模块导入与自定义模块
+├── 05_oop -- 面向对象编程（规划中）
+│   ├── 01_class_object.py -- 类与对象基础
+│   ├── 02_inheritance.py -- 继承与多态
+│   ├── 03_encapsulation.py -- 封装与访问控制
+│   └── 04_special_methods.py -- 魔术方法（__init__/__str__等）
+├── 06_advanced_features -- 进阶特性（规划中）
+│   ├── 01_generator_iterator.py -- 生成器与迭代器
+│   ├── 02_decorator.py -- 装饰器
+│   ├── 03_context_manager.py -- 上下文管理器（with语句）
+│   └── 04_exception_handle.py -- 异常处理
+├── 07_practice_projects -- 实战项目（规划中）
+│   ├── todo_list.py -- 待办事项清单
+│   ├── calculator.py -- 简易计算器
+│   └── file_manager.py -- 文件批量处理工具
+└── README.md -- 项目说明文档
+```
 
 ---
 
