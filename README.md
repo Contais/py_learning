@@ -33,7 +33,8 @@ py_lesson  -- Python 学习笔记仓库
 │   ├── 01_class_object.py -- 类与对象基础
 │   ├── 02_inheritance.py -- 继承与多态
 │   ├── 03_encapsulation.py -- 封装与访问控制
-│   └── 04_special_methods.py -- 魔术方法（__init__/__str__等）
+│   ├── 04_special_methods.py -- 魔术方法（__init__/__str__等）
+│   └── 05_oop_practice.py -- 实战练习（购物车功能）
 ├── 06_advanced_features -- 进阶特性（规划中）
 │   ├── 01_generator_iterator.py -- 生成器与迭代器
 │   ├── 02_decorator.py -- 装饰器
