@@ -1,9 +1,11 @@
 # 定义
 # key不能重复 必须是不可变类型（str、int、float、tuple）
-from unittest import case
-
 dict1 = {"Lebron": 23, "Curry": 30, "Kobe": 24, "Harden": 13, "Rose": 1, "Kobe": 8}
 print(f"dict1= {dict1}; type: {type(dict1)}")
+dict2 = dict()
+dict3 = {}
+print(f"dict1= {dict2}; type: {type(dict2)}")
+print(f"dict2= {dict3}; type: {type(dict3)}")
 
 # 操作
 # add
