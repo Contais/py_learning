@@ -1,3 +1,4 @@
+# 魔法方法
 class Book:
     def __init__(self, title, price):
         self.title = title
